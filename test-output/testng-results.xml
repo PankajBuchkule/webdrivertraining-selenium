@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13882" started-at="2019-07-07T07:18:55Z" finished-at="2019-07-07T07:19:09Z">
+  <suite name="Default suite" duration-ms="10787" started-at="2019-07-08T07:03:39Z" finished-at="2019-07-08T07:03:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13882" started-at="2019-07-07T07:18:55Z" finished-at="2019-07-07T07:19:09Z">
+    <test name="Default test" duration-ms="10787" started-at="2019-07-08T07:03:39Z" finished-at="2019-07-08T07:03:50Z">
       <class name="scripts.MyFirstTestNGTest">
-        <test-method status="PASS" signature="loginpage()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="loginpage" is-config="true" duration-ms="11192" started-at="2019-07-07T07:18:55Z" finished-at="2019-07-07T07:19:07Z">
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="loginpage" is-config="true" duration-ms="8866" started-at="2019-07-08T07:03:39Z" finished-at="2019-07-08T07:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="loginTest" duration-ms="1886" started-at="2019-07-07T07:19:07Z" finished-at="2019-07-07T07:19:08Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="loginTest" duration-ms="1102" started-at="2019-07-08T07:03:48Z" finished-at="2019-07-08T07:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="afterMethod" is-config="true" duration-ms="773" started-at="2019-07-07T07:19:08Z" finished-at="2019-07-07T07:19:09Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="afterMethod" is-config="true" duration-ms="750" started-at="2019-07-08T07:03:49Z" finished-at="2019-07-08T07:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
