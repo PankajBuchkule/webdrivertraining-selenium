@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 
-public class MyFirstTestNGTest {                           //Run Program Using TestNG framwork
+public class MyFirstTestNGTest {                           //Run Program Using TestNG framwork - edit
 	WebDriver driver;
 	@Test
   public void loginTest() {
