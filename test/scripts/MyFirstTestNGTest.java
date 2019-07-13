@@ -8,6 +8,7 @@ import static org.testng.Assert.assertEquals;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 public class MyFirstTestNGTest {                           //Run Program Using TestNG framwork - edit
@@ -24,6 +25,7 @@ public class MyFirstTestNGTest {                           //Run Program Using T
 //		else
 //			System.out.println("Test cases Failed");
 //	
+		
 		assertEquals(expectedTitle,actualTitle, "Test case Failed");
 	
 	  
@@ -37,7 +39,7 @@ public class MyFirstTestNGTest {                           //Run Program Using T
   }
 
   @AfterMethod
-  public void afterMethod() {
+  public void posttestcleanup() {
 		driver.quit();
   }
 

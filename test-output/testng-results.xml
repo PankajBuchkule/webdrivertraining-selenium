@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10787" started-at="2019-07-08T07:03:39Z" finished-at="2019-07-08T07:03:50Z">
+  <suite name="Default suite" duration-ms="16007" started-at="2019-07-13T09:34:56Z" finished-at="2019-07-13T09:35:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10787" started-at="2019-07-08T07:03:39Z" finished-at="2019-07-08T07:03:50Z">
-      <class name="scripts.MyFirstTestNGTest">
-        <test-method status="PASS" signature="loginpage()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="loginpage" is-config="true" duration-ms="8866" started-at="2019-07-08T07:03:39Z" finished-at="2019-07-08T07:03:48Z">
+    <test name="Default test" duration-ms="16007" started-at="2019-07-13T09:34:56Z" finished-at="2019-07-13T09:35:12Z">
+      <class name="scripts.PrintGoogleLinkName">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:scripts.PrintGoogleLinkName@215be6bb]" name="beforeMethod" is-config="true" duration-ms="6092" started-at="2019-07-13T09:34:56Z" finished-at="2019-07-13T09:35:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="loginTest" duration-ms="1102" started-at="2019-07-08T07:03:48Z" finished-at="2019-07-08T07:03:49Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testgooglelink()[pri:0, instance:scripts.PrintGoogleLinkName@215be6bb]" name="testgooglelink" duration-ms="9139" started-at="2019-07-13T09:35:02Z" finished-at="2019-07-13T09:35:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.MyFirstTestNGTest@215be6bb]" name="afterMethod" is-config="true" duration-ms="750" started-at="2019-07-08T07:03:49Z" finished-at="2019-07-08T07:03:50Z">
+        </test-method> <!-- testgooglelink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.PrintGoogleLinkName@215be6bb]" name="afterMethod" is-config="true" duration-ms="736" started-at="2019-07-13T09:35:11Z" finished-at="2019-07-13T09:35:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- scripts.MyFirstTestNGTest -->
+      </class> <!-- scripts.PrintGoogleLinkName -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
