@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.MyFirstTestNGTest">
+      <class name="scripts.WaitsInWebDriver">
         <methods>
           <include name="afterMethod"/>
-          <include name="loginpage"/>
-          <include name="loginTest"/>
+          <include name="waitTest"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- scripts.MyFirstTestNGTest -->
+      </class> <!-- scripts.WaitsInWebDriver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
