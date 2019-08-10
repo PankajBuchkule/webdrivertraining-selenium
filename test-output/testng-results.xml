@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57479" started-at="2019-07-17T17:40:23Z" finished-at="2019-07-17T17:41:20Z">
+  <suite name="Failed suite [Default suite]" duration-ms="74146" started-at="2019-08-04T08:22:39Z" finished-at="2019-08-04T08:23:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57479" started-at="2019-07-17T17:40:23Z" finished-at="2019-07-17T17:41:20Z">
-      <class name="scripts.AssingmentMailSent">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:scripts.AssingmentMailSent@215be6bb]" name="beforeMethod" is-config="true" duration-ms="10746" started-at="2019-07-17T17:40:23Z" finished-at="2019-07-17T17:40:33Z">
+    <test name="Default test(failed)" duration-ms="74146" started-at="2019-08-04T08:22:39Z" finished-at="2019-08-04T08:23:54Z">
+      <class name="scripts.AnnaUnivTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:scripts.AnnaUnivTest@5d5eef3d]" name="launchBrowser" is-config="true" duration-ms="43910" started-at="2019-08-04T08:22:39Z" finished-at="2019-08-04T08:23:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test()[pri:0, instance:scripts.AssingmentMailSent@215be6bb]" name="test" duration-ms="44994" started-at="2019-07-17T17:40:33Z" finished-at="2019-07-17T17:41:18Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test()[pri:0, instance:scripts.AnnaUnivTest@5d5eef3d]" name="test" duration-ms="29605" started-at="2019-08-04T08:23:23Z" finished-at="2019-08-04T08:23:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.AssingmentMailSent@215be6bb]" name="afterMethod" is-config="true" duration-ms="1676" started-at="2019-07-17T17:41:18Z" finished-at="2019-07-17T17:41:20Z">
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:scripts.AnnaUnivTest@5d5eef3d]" name="exitBrowser" is-config="true" duration-ms="599" started-at="2019-08-04T08:23:53Z" finished-at="2019-08-04T08:23:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- scripts.AssingmentMailSent -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- scripts.AnnaUnivTest -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

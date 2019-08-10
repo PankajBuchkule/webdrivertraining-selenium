@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeMethod;
 import static org.testng.Assert.assertTrue;
 
 import java.awt.AWTException;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -50,6 +49,9 @@ public class AssingmentPracticForm {
 		//SelCommand.selectByValue("wait");
 
 		//driver.findElement(By.id("submit")).click();		
+		
+		String Allvisibletext = driver.findElement(By.id("NextedText")).getText();  
+		System.out.println("Visibile text is :- \n" + Allvisibletext);
 		
 		Thread.sleep(9000);
 		
